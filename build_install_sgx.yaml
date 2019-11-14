@@ -46,7 +46,7 @@
     #   tags: ['sgx_sdk', 'sgx_psw', "hw_verif", "sgx_driver" ]
 
     - name: "[GENERAL] Get the home directory from the current machine"
-      shell: "pwd"
+      shell: "echo $HOME"
       register: current_home_directory
       tags: ['sgx_sdk', 'sgx_psw', "hw_verif", "sgx_driver" ]
 
